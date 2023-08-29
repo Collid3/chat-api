@@ -15,7 +15,7 @@ const messageRoomRoute = require("./routes/messageRoomRoute");
 connectDB();
 app.use(
   cors({
-    origin: "https://seroba-chat-api.onrender.com",
+    origin: "https://seroba-chat.onrender.com",
   })
 );
 
