@@ -18,6 +18,7 @@ app.use(
     origin: "https://seroba-chat-api.onrender.com",
   })
 );
+
 app.use(express.json({}));
 
 app.use("/auth", authRoute);
